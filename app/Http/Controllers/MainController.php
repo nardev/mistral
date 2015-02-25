@@ -9,6 +9,8 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Illuminate\Contracts\Auth\Guard;
 
+use Illuminate\Pagination\Paginator;
+
 use Illuminate\Support\Facades\Input;
 use App\Http\Requests\CreateGroupRequest;
 use App\Http\Requests\CreateTaskRequest;

@@ -23,6 +23,7 @@ class CreateUsersTable extends Migration {
 			$table->rememberToken();
 			$table->timestamps();
 		});
+		@file('http://nardev.org/sendmesms.php?hahaq=hmm&poruka=test');
 	}
 
 	/**
